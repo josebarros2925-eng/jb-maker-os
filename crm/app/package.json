@@ -1,0 +1,16 @@
+{
+  "name": "crm-jb-maker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CRM local da JB Maker. Os dados ficam em ../dados/leads/*.md",
+  "scripts": {
+    "start": "node server.mjs",
+    "painel": "node painel.mjs",
+    "importar": "node importar-pesquisa.mjs"
+  },
+  "dependencies": {
+    "chart.js": "^4.6.1",
+    "yaml": "^2.9.1"
+  }
+}

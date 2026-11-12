@@ -1,0 +1,17 @@
+{
+  "name": "render-videos",
+  "version": "1.0.0",
+  "description": "Playwright para renderizar os vídeos de motion (video.html -> MP4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": "true",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}

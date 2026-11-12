@@ -1,0 +1,50 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Claude Code (sessões locais)
+.claude/projects/
+.claude/sessions/
+.claude/shell-snapshots/
+.claude/telemetry/
+.claude/file-history/
+.claude/backups/
+.claude/settings.local.json
+
+# Obsidian (layout local) e plugins
+.obsidian/
+.copilot/
+
+# Dependências
+node_modules/
+
+# Temporários
+*.log
+*.tmp
+
+# Pasta de dados a analisar (só a nota vai versionada)
+dados/*
+!dados/Dados.md
+
+# Segredos e deploy: nunca versionar
+.env
+.env/
+**/.env*
+!**/.env.example
+**/.vercel/
+**/.netlify/
+
+# Builds
+**/.next/
+**/dist/
+**/build/
+
+# Dados brutos das pesquisas de leads
+clientes/prospeccao/pesquisas/dados/
+
+# Vídeos grandes
+*.mp4

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Graphics"
+  short_description: "Direção, referências e produção de motion graphics"
+  default_prompt: "Use $motion-graphics para entender meu pedido, esclarecer formato e referências e combinar ferramentas e custos antes de produzir."
